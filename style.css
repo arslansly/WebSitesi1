@@ -8,6 +8,7 @@
 html{
     font-size: 10px;
     font-family:'Montserrat',sans-serif ;
+    
 }
 .container{
     width: 100%;
@@ -22,6 +23,7 @@ html{
     width: 100%;
     position: fixed;
     z-index: 100;
+    position: absolute;
 }
 .nav-bar{
     background-color: black;
@@ -80,7 +82,7 @@ html{
     bottom: 8px;
 }
 .nav-bar .nav-list ul{
-    position: absolute;
+    position:absolute;
     width: 100%;
     top: 100px;
     left: 0;
